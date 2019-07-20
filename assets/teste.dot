@@ -1,0 +1,32 @@
+digraph G {
+  rankdir="TB"
+  node[shape=box]
+  label="Organização de Testes"
+  labelloc=t
+
+  subgraph clusterSuite{
+    label="Coleção de Testes (Suite)"
+
+    subgraph clusterTeste12{
+      label="Teste 2"
+      setup2[label="setup"];
+      preCondicao2[label="Verifica pré-condição"];
+      miolo2[label="O que se quer testar\n(e como se deseja implementar)"];
+      posCondicao2[label="Verifica pós-condição"];
+      tearDown2[label="tearDown"];
+      setup2->preCondicao2->miolo2->posCondicao2->tearDown2;
+    }
+    subgraph clusterTeste1{
+      label="Teste 1"
+      setup1[label="setup"];
+      preCondicao1[label="Verifica pré-condição"];
+      miolo1[label="O que se quer testar\n(e como se deseja implementar)"];
+      posCondicao1[label="Verifica pós-condição"];
+      tearDown1[label="tearDown"];
+      setup1->preCondicao1->miolo1->posCondicao1->tearDown1;
+    }
+
+  }
+}
+
+/* Consultar http://en.wikipedia.org/wiki/XUnit */

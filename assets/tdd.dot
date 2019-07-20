@@ -1,0 +1,71 @@
+digraph G {
+  rankdir="TB"
+  node[shape=box]
+  label="Etapas do Ciclo de desenvolvimento com TDD"
+  labelloc=t
+
+  start[label="Início"];
+
+  subgraph clusterTesteFalhando{
+    labelloc=t
+    label="Escreve um Teste Falhando"
+    teste_com_erro[label="1.Escreve Teste com\n Erro de Compilação",fillcolor=red,style=filled];
+    codifica_para_falhar[label="2.Codifica até\nTeste Falhar",fillcolor=red,style=filled];
+    executa_verifica_falha[label="3.Verifica Teste\n Falhando",fillcolor=red,style=filled];
+  }
+
+  subgraph clusterCodificaParaPassar{
+    label="Escreve código até o \nTeste Passar"
+    codifica_para_passar_no_teste[label="4.Codifica até\nTeste Passar"fillcolor=red,style=filled];
+    verifica_teste_passando[label="5.Verifica Teste\nPassando",fillcolor=green,style=filled];
+  }
+
+  subgraph clusterRefatoracao{
+    label="Refatoração do Código"
+    verifica_necessidade_refatoracao[label="6.Verifica\nnecessidade\nde Refatoração",fillcolor=green,style=filled];
+    refatora_codigo[label="7.Refatora\nCódigo",fillcolor=dodgerblue,style=filled];
+
+  }
+
+
+  subgraph{
+    pensa_novos_testes[label="8.Pensa em\nnovos testes",fillcolor=green,style=filled];
+    end[label="Fim",fillcolor=green,style=filled];
+  }
+
+// Estrutura inicial
+
+  teste_com_erro->codifica_para_falhar;
+  codifica_para_falhar->executa_verifica_falha[label="Falhando na\n Certificação",tailport=se];
+  codifica_para_passar_no_teste->verifica_teste_passando;
+  verifica_necessidade_refatoracao->refatora_codigo;
+
+  
+  {rank=same; teste_com_erro codifica_para_passar_no_teste}
+  verifica_necessidade_refatoracao->pensa_novos_testes[tailport=e];
+  
+  start->teste_com_erro;
+  
+  // ligações entre clusters
+  executa_verifica_falha->codifica_para_passar_no_teste;
+  refatora_codigo->pensa_novos_testes;
+  
+  verifica_teste_passando->verifica_necessidade_refatoracao;
+
+  
+  codifica_para_falhar->codifica_para_falhar[label="Codifica,\nCompila,\nExecuta Teste"];
+  codifica_para_passar_no_teste->codifica_para_passar_no_teste[label="Codifica,\nCompila,\nExecuta Teste,\n Verifica Falha"];
+
+
+  pensa_novos_testes->end[label="Não consegue\n pensar em \nnovos testes"];
+  pensa_novos_testes->teste_com_erro[constraint=false,tailport=w];
+}
+
+  /*
+  Imagem inspirada em http://vinkamat.com/wp-content/uploads/2011/03/tdd_cycle.jpg
+  Adicione um teste
+  Execute todos os testes e veja se algum deles falha
+  Escrever código
+  Execute os testes automatizados e veja-os executarem com sucesso
+  Refatorar código
+*/

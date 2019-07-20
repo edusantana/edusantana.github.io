@@ -1,0 +1,43 @@
+::energia:: Precaução: Sempre desconecte o cabo de energia da tomada antes de instalar, remover a placa-mãe ou outros componentes de hardware.{T}
+
+::pulseira:: Precaução: É aconselhável usar uma pulseira de descarga eletrostática (esd) ao manusear componentes eletrônicos. Caso não possua pulseira esd, mantenha as mãos secas e toque num objeto de metal primeiramente para eliminar a eletricidade estática.{T}
+
+::voltagen:: Precaução: Antes de ligar a energia, verifique se a voltagem da fonte de alimentação esteja em 220V de voltagem.{F}
+
+::DDR:: Os módulos de memória ddr4, ddr3 e ddr2 são incompatíveis entre si.{T}
+
+::HD:: Um computador pode funcionar sem HD (disco rígido).{T}
+
+::USBtraseiro:: Para as conexões USB traseiras funcionarem é necessário que os cabos do gabinete estejam conectados corretamente na placa mãe.{F}
+
+::processador:: As placas mães não irão ligar caso o processador não esteja conectado corretamente.{T}
+
+::espuma:: É recomendável colocar uma espuma antiestática (que vem na embalagem da placa-mãe) entre a placa-mãe e o chassi metálico do gabinete para evitar descargas elétricas.{F}
+
+::sata:: Para que os CD-ROMs ou HD funcionem, é necessário conectar o cabo SATA e o de energia.{T}
+
+::bios:: Basic Input/Output System (BIOS) é um sistema básico de entrada e saída, que registra parâmetros de hardware do sistema no cmos da placa-mãe. Suas principais funções incluem a realização do Power-On Self-Test (post) durante a inicialização do sistema, que o processador, memória e controladora de vídeo estão presentes e funcionando. Permite também ao usuário modificar as configurações básicas do sistema ou para ativar certos recursos.{T}
+
+::pilha:: Quando a energia é desligada, a bateria da placa-mãe fornece a energia necessária para o CMOS manter os valores de configuração.{T}
+
+::update:: Atualmente, todas as placas-mãe permitem a atualização do BIOS para suportar novas funcionalidades do hardware, através do download da nova versão e instalação via software.{T}
+
+::boot:: Para acessar o programa de configuração do BIOS, deve ser pressionada a tecla Delete, F2 ou F10 (dependendo do modelo) durante o post quando o computador está inicializando.{T}
+
+::password:: Através da BIOS é possível configurar uma senha, que pode impedir o acesso de usuários ao sistema.{T}
+
+::clearcmos:: Caso um computador esteja travado com a senha na BIOS é possível desabilitar a senha abrindo o computador e alterando o JUMPER da CMOS ou removendo a pilha do computador.{T}
+
+::fonte:: A fonte possui um chave para selecionar a voltagem de entrada 110V ou 220V, o seu propósito é fornecer a energia para todos os componentes do computador, que trabalham internamente com a mesma tensão.{F}
+
+::icore:: Os processadores i3, i5 e i7 da AMD possuem o mesmo encaixe na placa mãe, de tal forma que se nosso computador possuir um processador i3 podemos substituir por um i7 sem problemas incompatibilidades.{F}
+
+::DDRs:: Em uma mesma placa mãe é possível adicionar memórias DD3 e DDR4, contanto que elas tenham os slotes livres compatíveis.{T}
+
+::upgrade:: Para realizar um upgrade (melhoria) na memória de computador, devemos consultar o limite máximo de memória que a placa mãe suporta, caso contrário corremos o risco de comprar uma memória que não é compatível com o computador.{T}
+
+::dvi:: Caso a tela do computador não esteja funcionando pode ser problema no cabo DVI.{T}
+
+::pciex:: Ao adquirir um placa de vídeo, geralmente ela será acoplada ao slot PCI Express, pois possui uma velocidade de mais rápida do que o slot PCI.{T}
+
+::semmemoria:: Se computador for ligado sem memória escutaremos BEEPS e computador não irá iniciar.{T}
