@@ -7,6 +7,10 @@
 
 - calibre
 
+## Edição de vídeo através de comando de linha
+
+- [melt](https://www.mltframework.org/)
+
 # Web conf
 
 - [appear.in](https://appear.in) (nunca utilizei)
