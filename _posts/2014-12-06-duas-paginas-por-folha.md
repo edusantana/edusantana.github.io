@@ -19,6 +19,9 @@ O seguinte comando coloca duas páginas por folha:
 
     pdfnup --nup 2x2 --suffix '2x1' --batch input.pdf
 
+Alternativa: [posterazor](https://posterazor.sourceforge.io/index.php?page=download&lang=english)
+
+    sudo apt install posterazor
 
 ## Referência
 
