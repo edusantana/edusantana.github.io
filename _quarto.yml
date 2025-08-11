@@ -8,6 +8,26 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Código fonte
+            href:  https://github.com/edusantana/edusantana.github.io
+          - text: Reportar problema ou sugestão
+            href:  https://github.com/edusantana/edusantana.github.io/issues/new/choose
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Designer"
+        contents:
+#          - href: designer-intro.qmd
+          - text: "Elaboração de diagramas"
+            href: diagramas.qmd
+      - section: "Técnico de streaming"
+        contents:
+          - href: transmissao.qmd
+
 
 format:
   html:

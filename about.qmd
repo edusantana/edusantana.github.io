@@ -2,8 +2,4 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Vou agrupar aqui o conhecimento que vou adquirindo para facilitar a consulta.

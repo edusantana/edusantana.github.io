@@ -1,0 +1,10 @@
+---
+title: "Designer"
+format: html
+---
+
+# Desginer
+
+Diagramador
+
+:   Elaboração de livros, revistas e journals

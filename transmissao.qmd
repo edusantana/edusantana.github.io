@@ -1,0 +1,13 @@
+---
+title: "Transmissão"
+format: html
+---
+
+# Transmissão
+
+EM contrução
+
+## Softwares
+
+-   Software para transmissão da tela: https://www.vmix.com/ndi/
+-   DistroAV (antigo OBS-NDI): Integração NDI para o OBS Studio --  https://github.com/DistroAV/DistroAV

@@ -1,0 +1,23 @@
+---
+title: "Ferramentas"
+---
+
+# Ferramentas
+
+## PlantUML {#plant-uml}
+
+Eu gosto muito do PlantUML (<https://plantuml.com/>), mantenho-o nos meus favoritos do navegador, acessível sempre que preciso fazer um diagrama.
+
+Características da ferramenta:
+
+-   sintaxe textual para representação das informações
+-   fácil a atualização do gráfico após gerado.
+-   possui editor on-line
+-   pode ser automatizado para geração automátia de gráficos
+
+{{< video https://www.youtube.com/embed/H5PIh3USj24 >}}
+
+Exemplos de diagramas:
+
+- 
+organograma-plant-uml

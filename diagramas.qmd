@@ -1,0 +1,74 @@
+# Diagramas
+
+## Organograma
+
+O organograma é um artefato que apresenta visualmente a estrutura da instituição (em um determinado momento). Ele é um exemplo perfeito de artefato que requer atualizações sempre que houver mudanças da instituição.
+
+### Organograma no PlantUML {#organograma-plant-uml}
+
+Minha ferramenta preferida para criação de Organograma é o [PlantUML](ferramentas.qmd#plant-uml).
+
+Segue um exemplo de Organograma criado no PlantUML:
+
+![](https://img.plantuml.biz/plantuml/png/PL5BJiCm4Dtx55wnYCG5MBKDKOK4eb9FC746TL3YWR4Tk0B7O5K9YHNY1BuOutX12qk_URyPhq84YIzzCAQnDwrf6jko3pWUsExJ4mgnA7Y23cZpMoG7vt1Bw6F-V237o-0-pJIm49ZYUKs2iRnizuekHPghV8zE1w23ooqAZ0ku6y7Z8qngoFR2Rdb6yU3piMhkm0ddTq6uifqFv7c9E8Lt69uJXSg_9N-0K7gVmIrF5FF7xpuMfpz2w5aWvYyzGj3YvHgb553udvZwKJtoCNzZqD9hXpBNItG3wUhLSaDAuuYQfXpHB2MP5VgXVC4F)
+
+::: callout-tip
+## Dica
+
+Se você não conhece o PlantUML recomendo assistir ao seguinte vídeo contendo uma breve explicação de como utilizá-lo:
+
+{{< video https://www.youtube.com/embed/H5PIh3USj24 >}}
+:::
+
+#### Criando diagrama a partir do código
+
+-   **Abra em uma nova aba**: [Link direto para o editor com exemplo de Organograma](https://editor.plantuml.com/uml/PL11JiD03Bpt5NlY48aFS2g4g482KQalS3P6DKhMnTuDV85dSAg4n0dnWlqOtku10aUFPppZMMi4YS-zhXftqwwQnhKS5CSzkrqwe12BWR_G0Lr-ZUHX2RU48UQF1_9yMjodcGOMAZHtJOAn3AvxGPyYpLMzGsyBiCNv1WN64xWT8U0ZJ7QFtPdRy8mI8EHZrTo15yvlWd3Xkg0KYjy2tQ8-9T9AlwMm1osf5t3B4yNy_lEDm-cF47eMYFdJAb3BNReecO3qds7gHpkHZ_aBrI9VUfIvrj0DP8_NYrTaD8vePiOHipBI6iDWxNy3)
+
+O editor aberto possui a seguinte estrutura:
+
+![](img/diagramas/editor-plant-uml.png)
+
+1.  Área do código
+2.  Imagem do diagrama
+3.  Link para a imagem gerado
+4.  Caixa de Codificação do código
+5.  Botão para decodificar a partir da caixa
+
+Atualize o código conforme o Organograma que pretende criar.
+
+::: callout-tip
+## Dica
+
+Adicione <https://plantuml.com/wbs-diagram> aos seus Favoritos para ter acesso fácil sempre que precisar criar um organograma. Esta página apresenta a sintaxe do código para geração de Organogramas.
+:::
+
+#### Criando diagrama a partir do URL da imagem
+
+Se você salvou o URL de um diagrama gerado pode utilizá-lo para recriá-lo através de sua decodificação.
+
+Funciona da seguinte forma:
+
+1.  Cole o seguinte URL em "(4) Caixa de Codificação do código":
+
+```         
+https://img.plantuml.biz/plantuml/png/PL11JiD03Bpt5NlY48aFS2g4g482KQalS3P6DKhMnTuDV85dSAg4n0dnWlqOtku10aUFPppZMMi4YS-zhXftqwwQnhKS5CSzkrqwe12BWR_G0Lr-ZUHX2RU48UQF1_9yMjodcGOMAZHtJOAn3AvxGPyYpLMzGsyBiCNv1WN64xWT8U0ZJ7QFtPdRy8mI8EHZrTo15yvlWd3Xkg0KYjy2tQ8-9T9AlwMm1osf5t3B4yNy_lEDm-cF47eMYFdJAb3BNReecO3qds7gHpkHZ_aBrI9VUfIvrj0DP8_NYrTaD8vePiOHipBI6iDWxNy3
+```
+
+2.  E depois clique em "(5) Botão para decodificar a partir da caixa"
+
+### Análise de Organogramas
+
+
+![Extraído de https://assipec.org/organograma/](https://assipec.org/wp-content/webp-express/webp-images/uploads/2024/12/Organograma_dez24.png.webp)
+
+* Enfatisa a estética
+  + Elementos extras: logo, borda incompleta, fundo com textura.
+  + Elementos sem informação: tons amarelos, degradês, textura de fundo
+* Difícil manutenção
+
+
+![Extraído de https://www.reaprendentia.org/organograma/](https://www.reaprendentia.org/wp-content/uploads/2023/04/Slide2.png)
+
+* Tentativa de manter a informação das pessoas
+* Ausência de visão global
+* Difícil manutenção
