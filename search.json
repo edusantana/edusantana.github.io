@@ -1,16 +1,85 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "transmissao.html",
+    "href": "transmissao.html",
+    "title": "Transmissão",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "EM contrução\n\n\n\nSoftware para transmissão da tela: https://www.vmix.com/ndi/\nDistroAV (antigo OBS-NDI): Integração NDI para o OBS Studio – https://github.com/DistroAV/DistroAV",
+    "crumbs": [
+      "Home",
+      "Técnico de streaming",
+      "Transmissão"
+    ]
+  },
+  {
+    "objectID": "transmissao.html#softwares",
+    "href": "transmissao.html#softwares",
+    "title": "Transmissão",
+    "section": "",
+    "text": "Software para transmissão da tela: https://www.vmix.com/ndi/\nDistroAV (antigo OBS-NDI): Integração NDI para o OBS Studio – https://github.com/DistroAV/DistroAV",
+    "crumbs": [
+      "Home",
+      "Técnico de streaming",
+      "Transmissão"
+    ]
+  },
+  {
+    "objectID": "diagramas.html",
+    "href": "diagramas.html",
+    "title": "Diagramas",
+    "section": "",
+    "text": "O organograma é um artefato que apresenta visualmente a estrutura da instituição (em um determinado momento). Ele é um exemplo perfeito de artefato que requer atualizações sempre que houver mudanças da instituição.\n\n\nMinha ferramenta preferida para criação de Organograma é o PlantUML.\nSegue um exemplo de Organograma criado no PlantUML:\n\n\n\n\n\n\n\nDica\n\n\n\nSe você não conhece o PlantUML recomendo assistir ao seguinte vídeo contendo uma breve explicação de como utilizá-lo:\n\n\n\n\n\n\nAbra em uma nova aba: Link direto para o editor com exemplo de Organograma\n\nO editor aberto possui a seguinte estrutura:\n\n\nÁrea do código\nImagem do diagrama\nLink para a imagem gerado\nCaixa de Codificação do código\nBotão para decodificar a partir da caixa\n\nAtualize o código conforme o Organograma que pretende criar.\n\n\n\n\n\n\nDica\n\n\n\nAdicione https://plantuml.com/wbs-diagram aos seus Favoritos para ter acesso fácil sempre que precisar criar um organograma. Esta página apresenta a sintaxe do código para geração de Organogramas.\n\n\n\n\n\nSe você salvou o URL de um diagrama gerado pode utilizá-lo para recriá-lo através de sua decodificação.\nFunciona da seguinte forma:\n\nCole o seguinte URL em “(4) Caixa de Codificação do código”:\n\nhttps://img.plantuml.biz/plantuml/png/PL11JiD03Bpt5NlY48aFS2g4g482KQalS3P6DKhMnTuDV85dSAg4n0dnWlqOtku10aUFPppZMMi4YS-zhXftqwwQnhKS5CSzkrqwe12BWR_G0Lr-ZUHX2RU48UQF1_9yMjodcGOMAZHtJOAn3AvxGPyYpLMzGsyBiCNv1WN64xWT8U0ZJ7QFtPdRy8mI8EHZrTo15yvlWd3Xkg0KYjy2tQ8-9T9AlwMm1osf5t3B4yNy_lEDm-cF47eMYFdJAb3BNReecO3qds7gHpkHZ_aBrI9VUfIvrj0DP8_NYrTaD8vePiOHipBI6iDWxNy3\n\nE depois clique em “(5) Botão para decodificar a partir da caixa”\n\n\n\n\n\n\n\n\nExtraído de https://assipec.org/organograma/\n\n\n\nEnfatisa a estética\n\nElementos extras: logo, borda incompleta, fundo com textura.\nElementos sem informação: tons amarelos, degradês, textura de fundo\n\nDifícil manutenção\n\n\n\n\nExtraído de https://www.reaprendentia.org/organograma/\n\n\n\nTentativa de manter a informação das pessoas\nAusência de visão global\nDifícil manutenção",
+    "crumbs": [
+      "Home",
+      "Designer",
+      "Elaboração de diagramas"
+    ]
+  },
+  {
+    "objectID": "diagramas.html#organograma",
+    "href": "diagramas.html#organograma",
+    "title": "Diagramas",
+    "section": "",
+    "text": "O organograma é um artefato que apresenta visualmente a estrutura da instituição (em um determinado momento). Ele é um exemplo perfeito de artefato que requer atualizações sempre que houver mudanças da instituição.\n\n\nMinha ferramenta preferida para criação de Organograma é o PlantUML.\nSegue um exemplo de Organograma criado no PlantUML:\n\n\n\n\n\n\n\nDica\n\n\n\nSe você não conhece o PlantUML recomendo assistir ao seguinte vídeo contendo uma breve explicação de como utilizá-lo:\n\n\n\n\n\n\nAbra em uma nova aba: Link direto para o editor com exemplo de Organograma\n\nO editor aberto possui a seguinte estrutura:\n\n\nÁrea do código\nImagem do diagrama\nLink para a imagem gerado\nCaixa de Codificação do código\nBotão para decodificar a partir da caixa\n\nAtualize o código conforme o Organograma que pretende criar.\n\n\n\n\n\n\nDica\n\n\n\nAdicione https://plantuml.com/wbs-diagram aos seus Favoritos para ter acesso fácil sempre que precisar criar um organograma. Esta página apresenta a sintaxe do código para geração de Organogramas.\n\n\n\n\n\nSe você salvou o URL de um diagrama gerado pode utilizá-lo para recriá-lo através de sua decodificação.\nFunciona da seguinte forma:\n\nCole o seguinte URL em “(4) Caixa de Codificação do código”:\n\nhttps://img.plantuml.biz/plantuml/png/PL11JiD03Bpt5NlY48aFS2g4g482KQalS3P6DKhMnTuDV85dSAg4n0dnWlqOtku10aUFPppZMMi4YS-zhXftqwwQnhKS5CSzkrqwe12BWR_G0Lr-ZUHX2RU48UQF1_9yMjodcGOMAZHtJOAn3AvxGPyYpLMzGsyBiCNv1WN64xWT8U0ZJ7QFtPdRy8mI8EHZrTo15yvlWd3Xkg0KYjy2tQ8-9T9AlwMm1osf5t3B4yNy_lEDm-cF47eMYFdJAb3BNReecO3qds7gHpkHZ_aBrI9VUfIvrj0DP8_NYrTaD8vePiOHipBI6iDWxNy3\n\nE depois clique em “(5) Botão para decodificar a partir da caixa”\n\n\n\n\n\n\n\n\nExtraído de https://assipec.org/organograma/\n\n\n\nEnfatisa a estética\n\nElementos extras: logo, borda incompleta, fundo com textura.\nElementos sem informação: tons amarelos, degradês, textura de fundo\n\nDifícil manutenção\n\n\n\n\nExtraído de https://www.reaprendentia.org/organograma/\n\n\n\nTentativa de manter a informação das pessoas\nAusência de visão global\nDifícil manutenção",
+    "crumbs": [
+      "Home",
+      "Designer",
+      "Elaboração de diagramas"
+    ]
+  },
+  {
+    "objectID": "designer-intro.html",
+    "href": "designer-intro.html",
+    "title": "Designer",
+    "section": "",
+    "text": "Desginer\n\nDiagramador\n\nElaboração de livros, revistas e journals"
+  },
+  {
+    "objectID": "ferramentas.html",
+    "href": "ferramentas.html",
+    "title": "Ferramentas",
+    "section": "",
+    "text": "Eu gosto muito do PlantUML (https://plantuml.com/), mantenho-o nos meus favoritos do navegador, acessível sempre que preciso fazer um diagrama.\nCaracterísticas da ferramenta:\n\nsintaxe textual para representação das informações\nfácil a atualização do gráfico após gerado.\npossui editor on-line\npode ser automatizado para geração automátia de gráficos\n\n\nExemplos de diagramas:\n\norganograma-plant-uml"
+  },
+  {
+    "objectID": "ferramentas.html#plant-uml",
+    "href": "ferramentas.html#plant-uml",
+    "title": "Ferramentas",
+    "section": "",
+    "text": "Eu gosto muito do PlantUML (https://plantuml.com/), mantenho-o nos meus favoritos do navegador, acessível sempre que preciso fazer um diagrama.\nCaracterísticas da ferramenta:\n\nsintaxe textual para representação das informações\nfácil a atualização do gráfico após gerado.\npossui editor on-line\npode ser automatizado para geração automátia de gráficos\n\n\nExemplos de diagramas:\n\norganograma-plant-uml"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "corpus",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Em contrução."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Vou agrupar aqui o conhecimento que vou adquirindo para facilitar a consulta."
   }
 ]
