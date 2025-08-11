@@ -1,5 +1,12 @@
 # Diagramas
 
+::: {.callout-caution collapse="true"}
+## Em construção
+
+Conteúdo em construção.
+
+:::
+
 ## Organograma
 
 O organograma é um artefato que apresenta visualmente a estrutura da instituição (em um determinado momento). Ele é um exemplo perfeito de artefato que requer atualizações sempre que houver mudanças da instituição.

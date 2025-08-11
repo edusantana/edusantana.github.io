@@ -15,7 +15,7 @@ Características da ferramenta:
 -   possui editor on-line
 -   pode ser automatizado para geração automátia de gráficos
 
-{{< video https://www.youtube.com/embed/H5PIh3USj24 >}}
+{{< video https://youtu.be/H5PIh3USj24 >}}
 
 Exemplos de diagramas:
 
