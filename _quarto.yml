@@ -8,6 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: autogestao-voluntariado.qmd
+        text: "Autogestão de voluntariado"
     tools:
       - icon: github
         menu:
@@ -37,5 +39,5 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
+editor: source
 
