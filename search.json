@@ -24,6 +24,41 @@
     ]
   },
   {
+    "objectID": "ferramentas.html",
+    "href": "ferramentas.html",
+    "title": "Ferramentas",
+    "section": "",
+    "text": "Eu gosto muito do PlantUML (https://plantuml.com/), mantenho-o nos meus favoritos do navegador, acessível sempre que preciso fazer um diagrama.\nCaracterísticas da ferramenta:\n\nsintaxe textual para representação das informações\nfácil a atualização do gráfico após gerado.\npossui editor on-line\npode ser automatizado para geração automátia de gráficos\n\n\nExemplos de diagramas:\n\norganograma-plant-uml"
+  },
+  {
+    "objectID": "ferramentas.html#plant-uml",
+    "href": "ferramentas.html#plant-uml",
+    "title": "Ferramentas",
+    "section": "",
+    "text": "Eu gosto muito do PlantUML (https://plantuml.com/), mantenho-o nos meus favoritos do navegador, acessível sempre que preciso fazer um diagrama.\nCaracterísticas da ferramenta:\n\nsintaxe textual para representação das informações\nfácil a atualização do gráfico após gerado.\npossui editor on-line\npode ser automatizado para geração automátia de gráficos\n\n\nExemplos de diagramas:\n\norganograma-plant-uml"
+  },
+  {
+    "objectID": "designer-intro.html",
+    "href": "designer-intro.html",
+    "title": "Designer",
+    "section": "",
+    "text": "Desginer\n\nDiagramador\n\nElaboração de livros, revistas e journals"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Vou agrupar aqui o conhecimento que vou adquirindo para facilitar a consulta."
+  },
+  {
+    "objectID": "autogestao-voluntariado.html",
+    "href": "autogestao-voluntariado.html",
+    "title": "Autogestão de voluntariado consciológico",
+    "section": "",
+    "text": "Projetos em andamento\n\nmanuscript-template-rstudio-conscienciologia\nautopesquisa-voluntariado-relatorio-2025"
+  },
+  {
     "objectID": "diagramas.html",
     "href": "diagramas.html",
     "title": "Diagramas",
@@ -48,38 +83,10 @@
     ]
   },
   {
-    "objectID": "designer-intro.html",
-    "href": "designer-intro.html",
-    "title": "Designer",
-    "section": "",
-    "text": "Desginer\n\nDiagramador\n\nElaboração de livros, revistas e journals"
-  },
-  {
-    "objectID": "ferramentas.html",
-    "href": "ferramentas.html",
-    "title": "Ferramentas",
-    "section": "",
-    "text": "Eu gosto muito do PlantUML (https://plantuml.com/), mantenho-o nos meus favoritos do navegador, acessível sempre que preciso fazer um diagrama.\nCaracterísticas da ferramenta:\n\nsintaxe textual para representação das informações\nfácil a atualização do gráfico após gerado.\npossui editor on-line\npode ser automatizado para geração automátia de gráficos\n\n\nExemplos de diagramas:\n\norganograma-plant-uml"
-  },
-  {
-    "objectID": "ferramentas.html#plant-uml",
-    "href": "ferramentas.html#plant-uml",
-    "title": "Ferramentas",
-    "section": "",
-    "text": "Eu gosto muito do PlantUML (https://plantuml.com/), mantenho-o nos meus favoritos do navegador, acessível sempre que preciso fazer um diagrama.\nCaracterísticas da ferramenta:\n\nsintaxe textual para representação das informações\nfácil a atualização do gráfico após gerado.\npossui editor on-line\npode ser automatizado para geração automátia de gráficos\n\n\nExemplos de diagramas:\n\norganograma-plant-uml"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "corpus",
     "section": "",
     "text": "Em contrução."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Vou agrupar aqui o conhecimento que vou adquirindo para facilitar a consulta."
   }
 ]
