@@ -1,0 +1,10 @@
+---
+title: "Autogestão de voluntariado consciológico"
+format: html
+---
+
+# Projetos em andamento
+
+- [manuscript-template-rstudio-conscienciologia](https://edusantana.github.io/manuscript-template-rstudio-conscienciologia)
+- [autopesquisa-voluntariado-relatorio-2025](https://edusantana.github.io/autopesquisa-voluntariado-relatorio-2025)
+
